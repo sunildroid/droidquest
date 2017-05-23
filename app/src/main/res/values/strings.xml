@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">DroidQuest</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Awareness</string>
+    <string name="title_section3">Products</string>
+    <string name="title_section4">My Orders</string>
+    <string name="title_section5">Invite Friends</string>
+    <string name="title_section6">About Us</string>
+    <string name="title_section7">Rate The app</string>
+    <string name="title_section8">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_sync">Sync</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_us">
+        I\'m a mobile application developer living in New Delhi,India. I’m extremely passionate about mobile application development. I have over 6 years of Industry experience.  I love to transform ideas into mobile apps.
+        \n \n
+        This app is a small initiative to provide best in class interview questions and link all the Android developers through a common information sharing bridge.
+        \n App features to  boost your knowledge -
+        \n # Best in class interview questions
+        \n #Sync questions to read offline.
+        \n # Android updates for developer as well as users
+        \n # Join developer community to stay connected with developer world.
+        \n # Make a note for your favourite questions.
+        \n # Sync questions to read offline.
+        \n # Get new questions and updates biweekly
+        \n # Soon we are going to add JAVA and Data Structure section.
+        \n # Use Developer community to post your problem, freelance your work and for job referrals.
+        \n \n
+        Share your valuable feedback to bring the Android developer world closer and simple on <u><i>droidqadiary@gmail.com</i></u>
+        Welcome to the community.
+    </string>
+    <string name="txt_image_slider">Updates</string>
+    <string name="product_name">Product Name</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="time_out">Time Out</string>
+    <string name="error_occured">Error Occurred</string>
+
+    <string name="strAddQuestion">Contribute to share your expertise and knowledge. We value your content and add your questions by your name.</string>
+    <string name="question">Question</string>
+    <string name="addAnswer">Do you like to answer it also ?</string>
+    <string name="answer">Answer</string>
+    <string name="name">Your Name</string>
+    <string name="company">Organization name</string>
+    <string name="submit">Submit</string>
+    <string name="jointitle"><b>Be a part of Android developer community to get latest updates, job notifications and learning resources.</b></string>
+    <string name="addhike"><b>Agree to be a group member on WhatsApp(Selected Users only)?</b></string>
+    <string name="email">Email ID</string>
+    <string name="error">error</string>
+    <string name="phoneNumber">(Country Code) Phone Number</string>
+    <string name="tc">
+        THIS APP AND APP OWNER MAKES NO WARRANTIES REGARDING THE INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM ITS USE.
+      \n \n  Terms of Use
+    \n We are pleased to license the Android questions and answers under terms that encourage you to take, modify, reuse, re-purpose, and
+        remix the content as you see fit. Except as noted in the Restrictions section below, you are free to use the documentation
+        content in your own creations that will not be for commercial purpose. App reference should be given clearly where used.
+
+        \n \n
+       \n Icons used in this app are downloaded from
+        \n http://icons4android.com Icons used are under
+        \n http://icons8.com/android-L
+        \n http://somerandomdude.com/work/iconic/
+        \n http://icons4android.com
+        \n http://graphicriver.net/item/pictype-vector-icons/3917143?ref=tmthymllr
+    </string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="nofav">No Favourite Item</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9368513542961122/9536487297</string>
+</resources>

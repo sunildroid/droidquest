@@ -1,0 +1,131 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:textSize="14dip"
+            android:textColor="@color/theme_color"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:text="@string/strAddQuestion"
+            android:id="@+id/textView4"
+
+            android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_navigation"
+        android:layout_alignParentTop="true"
+        android:hint="@string/question"
+        app:errorEnabled="true">
+
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtQuestion"
+            android:lines="2"
+            android:textSize="16dip"
+            android:maxLines="4"
+
+            android:padding="6dip"
+            android:gravity="bottom" />
+    </android.support.design.widget.TextInputLayout>
+
+        <Switch
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addAnswer"
+            android:id="@+id/swAgree"
+            android:padding="6dip"
+            android:layout_marginTop="@dimen/gap_navigation"
+            android:layout_gravity="center_horizontal" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_navigation"
+        android:layout_alignParentTop="true"
+        android:hint="@string/answer"
+        app:errorEnabled="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtAnswer"
+            android:lines="4"
+            android:textSize="16dip"
+            android:maxLines="8"
+            android:padding="6dip"
+            android:gravity="bottom"
+            android:visibility="gone" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_navigation"
+        android:layout_alignParentTop="true"
+        android:hint="@string/name"
+        app:errorEnabled="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtName"
+            android:textSize="16dip"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:padding="6dip" />
+    </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilOrg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/gap_navigation"
+            android:layout_alignParentTop="true"
+            android:hint="@string/company"
+            app:errorEnabled="true">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtOrg"
+                android:textSize="16dip"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:padding="6dip" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:id="@+id/btnSubmit"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:padding="4dip"
+            android:textColor="@color/almost_white"
+            style="@style/ThemeButton" />
+
+
+    </LinearLayout>
+
+</ScrollView>

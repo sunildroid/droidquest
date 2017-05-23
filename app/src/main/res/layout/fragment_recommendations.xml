@@ -1,0 +1,11 @@
+
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/simple_text"
+        android:textColor="@color/theme_color"
+        android:layout_margin="@dimen/gap_navigation"
+        android:padding="4dp"
+        android:textSize="16dip"
+        android:textStyle="italic"
+        />

@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+     <!--   <item
+            android:id="@+id/nav_home"
+            android:title="Home" />-->
+        <item
+            android:id="@+id/nav_QA"
+            android:title="Q&amp;A"
+            android:icon="@drawable/ic_action"
+            />
+        <item
+            android:id="@+id/nav_Notes"
+            android:title="Your Notes"
+            android:icon="@drawable/ic_notes"/>
+
+        <item
+            android:id="@+id/nav_Updates"
+            android:title="Tips &amp; Updates"
+            android:icon="@drawable/ic_tip"
+            />
+        <item
+            android:id="@+id/nav_Recommend"
+            android:title="Recommendations"
+            android:icon="@drawable/ic_tips"/>
+        <item
+            android:id="@+id/nav_SubmitQA"
+            android:title="Submit Questions"
+            android:icon="@drawable/submit"
+            />
+        <item
+            android:id="@+id/nav_Join"
+            android:title="Join Community"
+            android:icon="@drawable/join"/>
+        <item
+            android:id="@+id/nav_AboutUS"
+            android:title="About"
+            android:icon="@drawable/ic_abtme"/>
+    </group>
+</menu>
